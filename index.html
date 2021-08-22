@@ -8,32 +8,37 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="images/home.png" />
+        <link rel="stylesheet" href="styles/estilopersonal.css">
     </head>
     <body>
         <header>
-            <h1>Bienvenid@ a Mi Sitio Web</h1>
-            <nav>
-                <hr />
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-                <hr />
-            </nav>
+            <h1>Bienvenido a Mi Sitio Web</h1>
         </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="bloquesAbajo"></div>
         <section>
-            <h2>My description</h2>
+            <div class="elementosAbajo"></div>
+            <h2>My Description</h2>
             <article>
-                <h3>Enrique Arana</h3>
-                <textarea name="nombre" cols="40" rows="4">Hola mucho gusto, tengo 23 años de edad y estudio en la Escuela Académico Profesional de Ingeniería de Sistemas.</textarea>
+                <h3 id="tituloEnrique">Enrique Arana</h3>
+                <p id="textoInicial">Hola mucho gusto, tengo 23 años de edad y estudio en la Escuela Académico Profesional de Ingeniería de Sistemas.</p>
             </article>
         </section>
         <aside>
             <article>
-                <h3>My Perfil</h3>
+                <h3 id="perfilInicial">My Profile</h3>
+                <div class="bloquesAbajo"></div>
                 <img src="images/miPerfil.jpg" alt="Yo Actualmente" width="250" height="350">
             </article>
         </aside>
+        <div class="bloquesAbajo"></div>
         <footer>
-            <hr>
             <h5>&copy; 2021 Mi Sitio Web. Todos los derechos reservados | Diseñado por Enrique Arana</h5>
         </footer>
     </body>
