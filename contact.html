@@ -4,51 +4,111 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contáctame</title>
+        <title>Contacto</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="images/contact.png" />
-        <link rel="stylesheet" href="styles/estilopersonal.css">
+        <link rel="icon" type="image/png" href="images/about.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/estilobootstrap.css">
+        <link rel=”stylesheet” href="styles/fontawesome.min.css" >
+
     </head>
     <body>
-        <header>
-            <h1>Contáctame</h1>
-        </header>
-        <nav id="navContact">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+       <!--NAVBAR-->
+       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logoPersonal.png" class="logo-personal">
+                </a>
+                <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toogle navigation">                
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Acerca de Mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <div class="bloquesAbajo"></div>
-        <section id="areaContacto">
-            <h2>Envíame un Correo</h2>
-            <article>
-                <h3>Formulario</h3>
-                <form action="mailto:jaranar15_2@unc.edu.pe" method="POST" enctype="text/plain" class="formulario">
-                    <h4 id="contactoForm">Contactar</h4>
-                    <input class="controles" type="text" name="nombre" placeholder="Ingrese su Nombre" required="">
-                    <input class="controles" type="email" name="mail" placeholder="Ingrese su Correo" required="">
-                    <textarea class="controles" cols="30" rows="4"></textarea>
-                    <input class="botones" type="submit" value="Enviar">
-                    <input class="botones" type="reset" value="Borrar">
-                </form>
-            </article>
+        <!--FORMULARIO-->
+        <section id="contact">
+            <div class="container container-formulario">
+                <div class="row">
+                    <div class="col-md-6 topmargin-sm">
+                        <h3>¿Quieres contactarme? <strong>Envíame un correo.</strong></h3>
+                        <p class="text-black-50">Los motivos de tus mensajes deben ser muy urgentes o si quieres preguntarme algo de la carrera.</p>
+                    </div>
+                    <div class="col-md-6 topmargin-sm">
+                        <div class="row">
+                            <div class="col-md-6 pb-3">
+                                <form class="form-group needs-validation" novalidate>
+                                    <input type="text" class="form-control" placeholder="Nombres" required>
+                                </form>
+                            </div>
+                            <div class="col-md-6 pb-3">
+                                <form class="form-group needs-validation" novalidate>
+                                    <input type="text" class="form-control" placeholder="Apellidos" required>
+                                </form>
+                            </div>
+                            <div class="col-md-12 pb-3">
+                                <form class="form-group needs-validation" novalidate>
+                                    <input type="email" class="form-control" placeholder="correo electrónico" required>
+                                </form>
+                            </div>
+                            <div class="col-md-12 pb-3">
+                                <form class="form-group needs-validation" novalidate>
+                                    <input type="text" class="form-control" placeholder="Escribe tu mensaje" required>
+                                </form>
+                            </div>
+                            <div class="col-md-12 pb-3">
+                                <form class="form-group">
+                                    <input type="number" class="form-control" placeholder="Número de teléfono(opcional)">
+                                </form>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-warning fw-bold btn-dark full-width">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
-        <div class="bloquesAbajo"></div>
-        <footer id='footerContact'>
-            <div class="redesSociales">
-                <ul>
-                    <li><a href="https://www.facebook.com/jorge.arana.984991/" target="_blank"><img src="images/facebook.png" alt="Logo Facebook" class="facebook"></a></li>
-                    <li><a href="https://www.linkedin.com/in/enrique-arana-rosales-343509186/" target="_blank"><img src="images/linkedin.png" alt="Logo Linkedin" class="linkedin"></a></li>
-                    <li><a href="https://mobile.twitter.com/Jorge67180171" target="_blank"><img src="images/twitter.png" alt="Logo twitter" class="twitter"></a></li>
-                </ul>
+        <!--BARRA FIJA-->
+        <div class="contenedor">
+            <ul class="lista-redes">
+                <li class="red-social mb-md-2"><a class="vinculo" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfnbMLWVTTwFhMTMLfpPfjwZxKMrswGfWdVQpLqTmVQKMbWJCdXKhZwcHnzTSrSFPhZjXB" target="_blank">Gmail</a><i class="fas fa-at gmail icon"></i></li>
+                <li class="red-social mb-md-2"><a class="vinculo" href="https://www.facebook.com/jorge.arana.984991/" target="_blank">Facebook</a><i class="fab fa-facebook-square icon"></i></li>
+                <li class="red-social mb-md-2"><a class="vinculo" href="https://wa.me/+51945379813" target="_blank">Whatsapp</a><i class="fab fa-whatsapp-square icon"></i></i></li>
+                <li class="red-social mb-md-2"><a class="vinculo" href="https://www.linkedin.com/in/enrique-arana-rosales-343509186/" target="_blank">Linkedin</a><i class="fab fa-linkedin icon"></i></li>
+                <li class="red-social"><a class="vinculo" href="https://mobile.twitter.com/Jorge67180171" target="_blank">Twitter</a><i class="fab fa-twitter-square icon"></i></li>
+            </ul>
+        </div>
+
+        <!--FOOTER-->
+        <div class="bloquesAbajo pb-5 pt-5"></div>
+        <div id="footer"  class="pt-1">
+            <div class="container w-75 pt-3">
+                <div class="row justify-content-md-center py-3">
+                 <div class="col text-center font-weight-light">
+                     <p>&copy; 2021 Mi Sitio Web. Todos los derechos reservados | Diseñado por Enrique Arana</p>
+                 </div>
+                </div>
             </div>
-            <div class="bloquesAbajo"></div>
-            <div class="info">
-                <h5>&copy; 2021 Mi Sitio Web. Todos los derechos reservados | Diseñado por Enrique Arana</h5>
-            </div>
-        </footer>
+        </div>
+
+        <script src="https://kit.fontawesome.com/09e454c5f2.js" crossorigin="anonymous"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -1,0 +1,286 @@
+body{
+    font-family: 'Titan One', cursive;
+}
+
+.logo-personal{
+    width: 70px;
+    border: 2px solid;
+    border-radius: 70px;
+}
+
+#ribbon{
+    background-color: #a6a6a6;
+    background-image: repeating-linear-gradient(45deg,transparent,transparent 25px, #545454 25px,#100f0d 40px);
+}
+
+.navbar-toggler{
+    font-size: 35px;
+}
+
+.container-comidas{
+    height: 50px;
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#birthday{
+    background-color: #a6a6a6;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#birthday img{
+    position: relative;
+    margin-top: -50px;
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#kokin{
+    background: #a6a6a6;
+    background: url(../images/fondoIndex.jpg), linear-gradient(0deg, black 0%, #545454 57%);
+    background-repeat: repeat-x;
+    background-size: 120%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    min-height: 970px;
+    padding-top: 290px;
+    color: white;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.topmargin-lg{
+    margin-top: 60px;
+}
+
+.topmargin-sm{
+    margin-top: 30px;
+}
+
+.topmargin-xs{
+    margin-top: 15px;
+}
+
+#separator-ribbon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#lugares{
+    background: #a6a6a6;
+    background: url(../images/fondoViaje.jpg), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+#separtor-comidas{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separator-comidas .content{
+    background: url(../images/separadorTextura.jpg);
+    width: 105%;
+    height: 80px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#comidas{
+    background: url(../images/fondoComida.PNG),url(../images/degradadoComidas.jpg);
+    background-repeat: no-repeat,repeat;
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}
+
+.comida{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+
+.comida:hover{
+    transform: scale(1.05);
+}
+
+.comida-name{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#separator-comidas-footer{
+    height: 20vw;
+}
+
+#lab{
+    background: url(../images/fondoLaboral.jpg);
+    background-color: rgb(255, 255, 219);
+    background-size: 40px 40px;
+}
+#footer{
+    background: url(../images/fondoFooter.jpg);
+    background-color: rgb(224, 144, 24);
+    background-size: 50px 50px;
+    color: white;
+}
+
+.container-formulario{
+    float: left;
+}
+
+.bloquesAbajo{
+    clear: both;
+}
+
+.form-control{
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+.form-control:focus{
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+}
+
+.contenedor{
+    height: 300px;
+    width: 300px;
+    margin: 140px 0;
+}
+
+.lista-redes{
+    margin-left: 0px;
+    width: 70%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    position: fixed;
+}
+
+.red-social{
+    position: relative;
+    transform: translateX(-90px);
+    background: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 10px 0;
+    transition: .5s;
+    width: 150px;
+    border-radius: 0 200px 200px 0;
+}
+
+.red-social:hover:nth-child(1){
+    background: #db4a39;
+}
+
+.red-social:hover:nth-child(2){
+    background: #3b5998;
+}
+
+.red-social:hover:nth-child(3){
+    background: #00bb2d;
+}
+
+.red-social:hover:nth-child(4){
+    background: #0e76a8;
+}
+
+.red-social:hover:nth-child(5){
+    background: #00acee ;
+}
+
+.red-social:hover{
+    transform: translateX(0);
+}
+
+.vinculo{
+    font-weight: bold;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+i{
+    margin-left: 15px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+}
+
+.icon{
+    font-size: 20px;
+}
+
+.gmail{
+    position: relative;
+    left: 30px;
+}
+

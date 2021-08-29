@@ -1,45 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inicio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/about.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/estilobootstrap.css">
+    <link rel=”stylesheet” href="styles/fontawesome.min.css" >
 
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Primer Laboratorio de Ingeniería Web</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="images/home.png" />
-        <link rel="stylesheet" href="styles/estilopersonal.css">
-    </head>
-    <body>
-        <header>
-            <h1>Bienvenido a Mi Sitio Web</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="bloquesAbajo"></div>
-        <section>
-            <div class="elementosAbajo"></div>
-            <h2>My Description</h2>
-            <article>
-                <h3 id="tituloEnrique">Enrique Arana</h3>
-                <p id="textoInicial">Hola mucho gusto, tengo 23 años de edad y estudio en la Escuela Académico Profesional de Ingeniería de Sistemas.</p>
-            </article>
-        </section>
-        <aside>
-            <article>
-                <h3 id="perfilInicial">My Profile</h3>
-                <div class="bloquesAbajo"></div>
-                <img src="images/miPerfil.jpg" alt="Yo Actualmente" width="250" height="350">
-            </article>
-        </aside>
-        <div class="bloquesAbajo"></div>
-        <footer>
-            <h5>&copy; 2021 Mi Sitio Web. Todos los derechos reservados | Diseñado por Enrique Arana</h5>
-        </footer>
-    </body>
+  </head>
+  <body>
+       <!--NAVBAR-->
+       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logoPersonal.png" class="logo-personal">
+            </a>
+            <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toogle navigation">                
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Acerca de Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="kokin">
+        <div class="container">
+            <h1 class="justify-content-md-center content-center">Bienvenidos a Mi Sitio Web 😉</h1>
+            <p class="content-center">Hola mucho gusto, tengo 23 años de edad y estudio en la Escuela Académico Profesional de Ingeniería de Sistemas - UNC.</p>
+        </div>
+    </section>
+ 
+    <div id="footer" class="p-1">
+        <div class="container w-75 pt-1">
+            <div class="row justify-content-md-center py-3">
+             <div class="col text-center font-weight-light">
+                 <p>&copy; 2021 Mi Sitio Web. Todos los derechos reservados | Diseñado por Enrique Arana</p>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
