@@ -17,9 +17,6 @@ body{
     font-size: 35px;
 }
 
-.container-comidas{
-    height: 50px;
-}
 
 #ribbon::after{
     content: '';
