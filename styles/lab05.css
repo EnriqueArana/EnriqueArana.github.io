@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    background: #d9f6ee;
+    min-height: 400px;
+    padding-left: 60px;
+}
+
+h1{
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#seccion-datos1{
+    width: 50%;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+#seccion-datos2{
+    width: 50%;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.texto-plano{
+    background-color: #296da3;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 8px;
+}
+
+#fname{
+    width: 45%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+    padding-left: 6px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#fdate{
+    width: 45%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+}
+
+.container2{
+    width: 45%;
+    margin-left: 50%;
+    margin-top: -100px;
+}
+
+#btnextraer{
+    width: 35%;
+    font-size: 1.5em;
+    color: white;
+    background: #f19d1c;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#btncolorear{
+    width: 35%;
+    font-size: 1.5em;
+    float: right;
+    margin-left: 15px;
+    margin-right: 120px;
+    color: white;
+    background: #b54818;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#btncolorear:focus{
+    background: #b54818;
+}
+
+#btncolorear:active{
+    background: #296da3;
+}
+
+#btnextraer:focus{
+    background: #f19d1c;
+}
+
+#btnextraer:active{
+    background: #296da3;
+}
+
+.container3{
+    padding-top: 7%;
+    padding-left: 5%;
+
+}
+
+.container4{
+    width: 85%;
+    margin-left: 40%;
+    margin-top: -115px;
+
+}
+
+#seccion-datos4{
+    margin-top: 10px;
+}
+
+#seccion-datos5{
+    margin-top: 10px;
+}
+
+#seccion-datos7{
+    margin-top: 10px;
+}
+
+#seccion-datos8{
+    margin-top: 10px;
+}
+
+#fpat{
+    width: 15%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+}
+
+#fmat{
+    width: 14.5%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+}
+
+#fnom{
+    width: 14.5%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+}
+
+#flon{
+    width: 14.5%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+}
+
+
+#fage{
+    width: 14.5%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+}
+
+#fletter{
+    width: 14.5%;
+    height: 25px;
+    padding-top: 3px;
+    border: 2px solid #b54818;
+}
+
+.texto-nombres{
+    background-color: #296da3;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+    padding-right: 8.5%;
+    padding-left: 8px;
+}
+
+#Longitud-apellido{
+    background-color: #b54818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+
+#edad{
+    background-color: #b54818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+    padding-right: 16%;
+    padding-left: 8px;
+}
+
+#mes-letras{
+    background-color: #b54818;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 5px;
+    padding-right: 7.5%;
+    padding-left: 8px;
+}
