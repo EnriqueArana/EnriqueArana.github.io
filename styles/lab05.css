@@ -28,6 +28,7 @@ h1{
     padding-top: 10px;
 }
 
+
 .texto-plano{
     background-color: #296da3;
     font-style: normal;
@@ -188,7 +189,7 @@ h1{
     padding-left: 8px;
 }
 
-#Longitud-apellido{
+#longitudapellido{
     background-color: #b54818;
     font-style: normal;
     font-weight: lighter;
@@ -211,7 +212,7 @@ h1{
     padding-left: 8px;
 }
 
-#mes-letras{
+#mesletras{
     background-color: #b54818;
     font-style: normal;
     font-weight: lighter;

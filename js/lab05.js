@@ -1,6 +1,9 @@
 let okButton=document.getElementById("btnextraer");
 okButton.onclick=okayClick;
 
+/*let botonColorear=document.getElementById("btncolorear");
+botonColorear.addEventListener('click',cambiarColores);*/
+
 function okayClick(){
     const texto = document.getElementById("fname").value;
     if (texto == ""){
@@ -29,3 +32,38 @@ function okayClick(){
     document.getElementById("fage").value = edad+" años";
     document.getElementById("fletter").value = meses[parseInt(anio[1]-1)];
 }
+
+function cambiarColores(){
+    caja1.style.background = "#b54818";
+}
+
+(function() {
+    let boton = document.getElementById("btncolorear");
+    boton.addEventListener("click", myf1);
+
+
+    let contador = 0;
+
+    function myf1() {
+      if (contador % 2 ==0) {
+          caja1.style.background= "#b54818";
+          caja2.style.background= "#b54818";
+          caja3.style.background= "#b54818";
+          caja4.style.background= "#b54818";
+          caja5.style.background= "#b54818";
+          longitudapellido.style.background= "#296da3";
+          edad.style.background= "#296da3";
+          mesletras.style.background= "#296da3";
+      } else {
+          caja1.style.backgroundColor = "#296da3";
+          caja2.style.background= "#296da3";
+          caja3.style.background= "#296da3";
+          caja4.style.background= "#296da3";
+          caja5.style.background= "#296da3";
+          longitudapellido.style.background= "#b54818";
+          edad.style.background= "#b54818";
+          mesletras.style.background= "#b54818";
+      }
+      contador += 1;
+    }
+})();
