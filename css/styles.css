@@ -42,6 +42,14 @@ body{
     width: 100%;
 }
 
+.letraVino{
+    color: var(--vino);
+}
+
+.letraAzul{
+    color: var(--azulOscuro);
+}
+
 /* CABECERA */
 header{
     width: 100%;
@@ -51,6 +59,7 @@ header{
 header img{
     width: 100px;
     margin: 20px;
+    margin-left: 40px;
 }
 
 header nav{
@@ -77,4 +86,72 @@ header nav ul li a{
 header nav ul li a:hover{
     color: var(--vino);
     transform: scale(1.2,1.2);
+}
+
+/* PRESENTACIÓN */
+#presentacion{
+    width: 100%;
+    height: 350px;
+    display: block;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#presentacion__titulos{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+
+#presentacion__titulos h1{
+    font-size: 85px;
+    font-family: "BebasNeue";
+    letter-spacing: 5px;
+    transition: all 300ms;
+}
+
+#presentacion__titulos h1:hover{
+    text-shadow: 1px 1px 2px var(--negro);
+}
+
+#presentacion__titulos h3{
+    font-size: 34px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    font-family: "BebasNeue";
+}
+
+button{
+    font-size: 36px;
+    background-color: var(--negro);
+    color: var(--blanco);
+    margin-top: 70px;
+    padding: 30px 70px 30px 70px;
+    border-radius: 10px;
+    font-family: "BebasNeue";
+    letter-spacing: 3px;
+    border: 2px solid var(--negro);
+    transition: all 300ms;
+}
+
+button:hover{
+    background-color: var(--vino);
+    border: 2px solid var(--vino);
+    box-shadow: 2px 2px 1px var(--negro);
+}
+
+#fotoPerfil{
+    display: block;
+    width: 40%;
+    float: right;
+    height: 250px;
+}
+
+#fotoPerfil img{
+    width: 70%;
+    height: 420px;
+    margin-left: 50px;
 }
