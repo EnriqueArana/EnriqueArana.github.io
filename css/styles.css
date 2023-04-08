@@ -56,8 +56,6 @@ header{
     height: 130px;
 }
 
-
-
 nav{
     width: 100%;
     position: fixed;
@@ -133,16 +131,56 @@ nav ul li a:hover{
     height: 300px;
     padding-left: 40px;
     padding-top: 90px;
+    
 }
 
-#presentacion__titulos h1{
+#presentacion__titulos h1 {
     font-size: 85px;
     font-family: "BebasNeue";
     letter-spacing: 5px;
+    display: block;
+    white-space: nowrap;
+    width: 17.5ch;
+    animation: typing 1.1s steps(15), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    border-right: none;
+    position: relative;
     transition: all 300ms;
-    animation: moverH1 1s linear;
-}
-
+  }
+  
+  #presentacion__titulos h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 4px;
+    background-color: transparent;
+    animation: delete-line 1s steps(15) forwards;
+    animation-delay: 5s; /* Igual al tiempo de duración de la animación typing */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes delete-line {
+    from {
+      background-color: #fff;
+    }
+    to {
+      background-color: transparent;
+    }
+  }
+/* 
 @keyframes moverH1{
     from{
         transform: translateX(-500%);
@@ -150,7 +188,7 @@ nav ul li a:hover{
     to{
         transform: translateX(0%);
     }
-}
+} */
 
 #presentacion__titulos h1:hover{
     text-shadow: 1px 1px 2px var(--negro);
@@ -342,6 +380,7 @@ button:hover{
 #mySkills{
     width: 100%;
     display: block;
+    position: relative;
     height: 500px;
     overflow: hidden;
     background-color: var(--negro);
@@ -353,11 +392,7 @@ button:hover{
     display: block;
 }
 
-#mySkills__first{
-    margin: 50px;
-    width: 500px;
-    text-align: center;
-}
+
 
 #mySkills__second{
     float: right;
