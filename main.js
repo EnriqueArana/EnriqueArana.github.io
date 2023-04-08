@@ -1,5 +1,10 @@
 const nav = document.querySelector('nav');
-const logo = document.querySelector('.logo');
-window.addEventListener('scroll',function(){
-    nav.classList.toggle('active',window.scrollY >0);
+
+window.addEventListener('scroll',()=>{
+    // nav.classList.toggle('active',window.scrollY >0);
+    if (window.scrollY > 0) {
+        nav.classList.add('active');
+      } else {
+        nav.classList.remove('active');
+      }
 })
