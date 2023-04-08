@@ -102,6 +102,7 @@ nav ul li a:hover{
 
 .active{
     background-color: var(--negro);
+    transition: all 3s;
 }
 
 .active a{
@@ -334,4 +335,85 @@ button:hover{
     font-family:  "TrebuchetMS";
     font-weight: bold;
     text-align: center;
+}
+
+/* SECCIÓN MY SKILLS */
+/* SECCIÓN DE MI DESCRIPCIÓN */
+#mySkills{
+    width: 100%;
+    display: block;
+    height: 500px;
+    overflow: hidden;
+    background-color: var(--negro);
+}
+
+#mySkills article{
+    width: 50%;
+    color: white;
+    display: block;
+}
+
+#mySkills__first{
+    margin: 50px;
+    width: 500px;
+    text-align: center;
+}
+
+#mySkills__second{
+    float: right;
+    width: 300px;
+    text-align: center;
+}
+
+#mySkills__second h3{
+    color: white;
+    font-size: 80px;
+    font-family: "BebasNeue";
+    margin-top: 80px;
+}
+
+#mySkills__second h4{
+    font-size: 30px;
+    font-family: "BebasNeue";
+    padding-left: 240px;
+    padding-right: 240px;
+    margin-top: 10px;
+    color: var(--crema);
+}
+
+#mySkills__second h4 p{
+    line-height: 13px;
+}
+
+#mySkills__second #primeraLinea{
+    float: left;
+}
+
+#mySkills__second #segundaLinea{
+    float: right;
+}
+
+#mySkills__second #flecha{
+    font-family: "WebSymbolsRegular";
+    margin-top: 30px;
+    font-size: 50px;
+    transition: all 300ms;
+    animation: moverFlecha infinite 2s linear;
+}
+@keyframes moverFlecha {
+    0%{
+        transform: translateX(3%);
+    }
+    25%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(-3%);
+    }
+    75%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(3%);
+    }
 }
