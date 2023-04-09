@@ -422,14 +422,11 @@ button:hover{
         color: var(--rosa);
         text-shadow: 1px 1px 8px var(--rosa);
     }
-    
     100%{
         transform: perspective(1000px) rotateY(360deg);
     }
-    
 }
 @keyframes rotarSoft {
-    
     0%{
         transform: perspective(1000px) rotateY(360deg);
     }
@@ -438,11 +435,9 @@ button:hover{
         color: var(--crema);
         text-shadow: 1px 1px 8px var(--crema);
     }
-    
     100%{
         transform: perspective(1000px) rotateY(0deg);
     }
-    
 }
 
 #mySkills__second{
@@ -502,4 +497,50 @@ button:hover{
     100%{
         transform: translateX(3%);
     }
+}
+
+/* PIE DE PÁGINA */
+footer{
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: var(--negro);
+}
+footer h3{
+    text-align: center;
+    width: 20%;
+    margin:  0 auto;
+    font-size: 30px;
+    height: 90px;
+    line-height: 90px;
+}
+footer h3 span{
+   font-family: "WebSymbolsRegular"; 
+}
+footer #redes{
+    margin:  0 auto;
+    width: 20%;
+}
+#redes img{
+    width: 40px;
+    transition: all 300ms;
+}
+#redes #github{
+    margin-left: 60px;
+}
+#redes #linkedin{
+    float: right;
+    display: block;
+    margin-right: 60px;
+}
+#redes a:hover img{
+    transform: scale(1.2,1.2);
+}
+footer p{
+    text-align: center;
+    margin:  0 auto;
+    width: 20%;
+    font-family: "TrebuchetMS";
+    font-size: 20px;
+    margin-top: 20px;
 }
