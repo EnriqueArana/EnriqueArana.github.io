@@ -390,9 +390,60 @@ button:hover{
     width: 50%;
     color: white;
     display: block;
+    padding-top: 50px;
 }
 
+#mySkills__first{
+    display: block;
+    float: left;
+    z-index: 2;
+    margin: 0 auto;
+    line-height: 30px;
+}
 
+#mySkills__first div{
+    margin-left: 40px;
+}
+
+#mySkills__first--set{
+    animation: rotarSet infinite 10s linear;
+}
+
+#mySkills__first--soft{
+    animation: rotarSoft infinite 10s linear;
+}
+
+@keyframes rotarSet {
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    50%{
+        transform: perspective(1000px) rotateY(180deg);
+        color: var(--rosa);
+        text-shadow: 1px 1px 8px var(--rosa);
+    }
+    
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+    
+}
+@keyframes rotarSoft {
+    
+    0%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+    50%{
+        transform: perspective(1000px) rotateY(180deg);
+        color: var(--crema);
+        text-shadow: 1px 1px 8px var(--crema);
+    }
+    
+    100%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    
+}
 
 #mySkills__second{
     float: right;
