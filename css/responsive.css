@@ -1,0 +1,132 @@
+@media (max-width:1032px) {
+  #descripcion__first h3 {
+    font-size: 60px;
+  }
+  #descripcion__second p{
+    font-size: 25px;
+  }
+  footer #redes {
+    width: 27%;
+  }
+}
+@media (max-width:1016px) {
+  #fotoPerfil img {
+    float: right;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  #presentacion__titulos h1 {
+    font-size: 72px;
+  }
+  #presentacion__titulos h3 {
+    font-size: 27px;
+  }
+  #descripcion {
+    height: 410px;
+  }
+}
+@media (max-width:1012px) {
+  #descripcion__second p {
+    font-size: 22px;
+  }
+}
+@media (max-width:901px) {
+  #descripcion {
+    padding-top: 26px;
+    height: 380px;
+  }
+  #descripcion__second p {
+    margin-right: 98px;
+    margin-left: 98px;
+  }
+  #descripcion__first h4 {
+    width: 35%;
+  }
+  #mySkills__second h4 {
+    width: 35%;
+  }
+}
+@media (max-width:853px) {
+  nav ul li {
+    margin-right: 50px;
+    margin-left: 30px;
+  }
+  #presentacion__titulos h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+  }
+  #presentacion__titulos h3 {
+    font-size: 22px;
+  }
+  footer #redes {
+    width: 34%;
+  }
+  #descripcion__second p {
+   font-size: 20px; 
+  }
+}
+@media (max-width:773px) {
+  #descripcion__second p {
+    margin-right: 76px;
+    margin-left: 76px;
+    margin-top: 112px;
+  }
+  nav ul li {
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  #presentacion__titulos h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width:695px) {
+  #presentacion__titulos h1 {
+    font-size: 50px;
+  }
+  #presentacion__titulos h3 {
+    font-size: 17px;
+  }
+  footer #redes {
+    width: 40%;
+  }
+}
+
+@media(max-width: 692px){
+  #presentacion__titulos {
+    width: 100%;
+    height: 454px;
+    padding-top: 30px;
+    margin: 0 auto;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #presentacion__titulos h1 {
+    font-size: 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #presentacion__titulos h3 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 170px;
+  }
+  #fotoPerfil {
+    width: 100%;
+    height: 150px;
+    margin-top: -350px;
+  }
+  #fotoPerfil img {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    margin-right: 40%;
+    height: 200px;
+  }
+}
+@media(max-width: 655px){
+
+}
