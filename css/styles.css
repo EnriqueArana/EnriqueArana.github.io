@@ -98,6 +98,42 @@ nav ul li a:hover{
     transform: scale(1.2,1.2);
 }
 
+/* MENÚ MOBILE */
+.nav__toggle{
+    position: absolute;
+    cursor: pointer;
+    margin: 0 1rem;
+    right: 0;
+}
+
+.nav__toggle img{
+   width: 1rem;
+}
+
+.nav__toggle .close{
+    display: none;
+}
+
+.nav ul li{
+    display: block;
+}
+
+.nav__toggle .close,
+.nav__toggle .hamburguer{
+    margin-top: 0.3rem;
+}
+
+.nav__checkbox{
+    display: none;
+}
+
+.nav__toggle{
+    display: none;
+}
+#nav__redes{
+    display: none;
+}
+
 .active{
     background-color: var(--negro);
     width: 100%;
@@ -383,6 +419,9 @@ button:hover{
     font-family:  "TrebuchetMS";
     font-weight: bold;
     text-align: center;
+}
+#saludo__mobile{
+    display: none;
 }
 
 /* SECCIÓN MY SKILLS */

@@ -12,13 +12,26 @@
 <body>
     <header>
         <nav>
-                <img class="logo light" src="img/logoLight.png">
+            <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+            <label for="nav__checkbox" class="nav__toggle">
+                <img src="img/hamburguer.png" alt="Menú Hamburguesa" class="hamburguer">
+                <img src="img/xPng.png" alt="Cerrar" class="close">
+            </label>
+            <img class="logo light" src="img/logoLight.png">
             <ul>
                 <li><a href="#">{ Home }</a></li>
                 <li><a href="#">{ About }</a></li>
                 <li><a href="#">{ Work }</a></li>
                 <li><a href="#">{ Blog }</a></li>
             </ul>
+            <div id="nav__redes">
+                <a href="#">
+                    <img id="github" src="img/githubB.svg" alt="Logo de GitHub">
+                </a>
+                <a href="#">
+                    <img id="linkedin" src="img/linkedinB.svg" alt="Logo de Linkedin">
+                </a>
+            </div>
         </nav>
     </header>
     <main>
@@ -46,6 +59,10 @@
             </article>
             <article id="descripcion__second">
                 <p>I studied Systems Engineering, I have experience in website layout, interested in making user-friendly websites with languages like JavaScript, taking into account UX strategies.</p>
+            </article>
+            <article id="saludo__mobile">
+                <p id="carita">( n _ n )</p>
+                <p id="saludo">NICE TO MEET YOU</p>
             </article>
         </section>
         <section id="mySkills">

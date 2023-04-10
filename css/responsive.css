@@ -1,3 +1,11 @@
+:root{
+  --blanco: #FBFEFF;
+  --negro: #0F131E;
+  --vino: #61223B;
+  --azulOscuro: #172645;
+  --rosa: #D89590;
+  --crema: #F8D3B8;
+}
 @media (max-width:1032px) {
   #descripcion__first h3 {
     font-size: 60px;
@@ -129,4 +137,242 @@
 }
 @media(max-width: 655px){
 
+  nav .logo,
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+  }
+  nav .logo{
+    margin-right: auto;
+  }
+  .nav__toggle{
+    display: block;
+    width: 50px;
+  }
+  ul li{
+    display: none;
+  }
+  nav ul{
+    margin-top: 230px;
+  }
+  nav ul li{
+    margin: 15px;
+  }
+  nav ul li a{
+    font-size: 25px;
+  }
+  .nav__toggle img {
+    width: 3rem;
+  }
+  #nav__redes{
+    display: none;
+    clear: both;
+    width: 28%;
+    float: right;
+    height: 80px;
+    padding: 30px;
+    padding-top: 0;
+  }
+  #nav__redes a img{
+    width: 20%;
+    float: right;
+
+  }
+  #nav__redes a #github{
+    float: left;
+    margin: 30px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 70px;
+    transition: all 300ms;
+  }
+  #nav__redes a #github:hover{
+    transform: scale(1.2,1.2);
+  }
+  #nav__redes a #linkedin{
+    margin: 30px;
+    margin-top: 0;
+    margin-right: 0;
+    transition: all 300ms;
+  }
+  #nav__redes a #linkedin:hover{
+    transform: scale(1.2,1.2);
+  }
+  .active .logo{
+    content: url("../img/logoLight.png");
+  }
+  .active #nav__redes a #github{
+    content: url("../img/github.svg");
+  }
+  .active #nav__redes a #linkedin{
+    content: url("../img/linkedin.svg");
+  }
+  .active .close{
+    content: url("../img/xNight.png");
+  }
+  .active .hamburguer{
+    content: url("../img/hamburguerNight.png");
+  }
+  #nav__checkbox:checked ~ ul li{
+    display: block;
+  }
+
+  #nav__checkbox:checked ~ .active{
+    background-color: var(--negro);
+    height: 300px;
+  }
+  #nav__checkbox:checked ~ #nav__redes{
+    display: block;
+  }
+  #nav__checkbox:checked ~ label.nav__toggle .close{
+    display: block;
+  }
+  #nav__checkbox:checked ~ label.nav__toggle .hamburguer{
+    display: none;
+
+  } 
+  .close {
+    display: none;
+  }
+  #fotoPerfil img{
+    width: 135px;
+  }
+  #descripcion {
+    padding: 0;
+    height: auto;
+  }
+  #descripcion article {
+    width: 100%;
+    color: white;
+    float: none;
+  }
+  #descripcion__first h4 {
+    width: 23%;
+  }
+  #descripcion__first ul {
+    display: none;
+  }
+  #descripcion__second p {
+    margin-top: 25px;
+  }
+  #saludo__mobile{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "BebasNeue";
+  }
+  #saludo__mobile #carita{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+
+  }
+  #saludo__mobile #saludo{
+    margin-top: 15px;
+    font-size: 25px;
+    color: var(--crema);
+  }
+
+  #mySkills {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    height: auto;
+  }
+  #mySkills article {
+    margin: 0 auto;
+    float: none;
+    padding-top: 0;
+  }
+  #mySkills__first {
+    order: 2; 
+  }
+  
+  #mySkills__second {
+    order: 1;
+    width: 100%; 
+   
+  }
+  #mySkills__second #flecha {
+    display: none;
+  }
+  #mySkills__second h4 {
+    width: 46%;
+    margin-bottom: 40px;
+  }
+  #nav__redes {
+    width: 35%;
+  }
+}
+
+@media(max-width: 530px){
+  #mySkills__second h3 {
+    font-size: 67px;
+  }
+  #descripcion__first h4 {
+    width: 35%;
+  }
+  #mySkills__second h4 {
+    width: 62%;
+  }
+  footer #redes {
+    width: 58%;
+  }
+}
+@media(max-width: 478px){
+  footer #redes {
+    width: 40%;
+  }
+}
+@media(max-width: 450px){
+  #presentacion__titulos h1 {
+    font-size: 42px;
+    width: 90%;
+  }
+  #presentacion__titulos h3 {
+    font-size: 14px;
+  }
+  #fotoPerfil {
+    width: 90%;
+  }
+  #fotoPerfil img {
+    width: 152px;
+  }
+  button {
+    margin-top: 94px;
+    padding: 20px 60px 20px 60px;
+  }
+  #nav__redes {
+    width: 48%;
+  }
+}
+@media(max-width: 443px){
+  #mySkills__second h3 {
+    font-size: 55px;
+  }
+}
+@media(max-width: 375px){
+  #presentacion__titulos h3 {
+    font-size: 13px;
+  }
+  #descripcion__first h4 {
+    width: 50%;
+  }
+  #mySkills__second h4 {
+    width: 85%;
+  }
+  footer #redes {
+    width: 78%;
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+  #fotoPerfil {
+    width: 68%;
+  }
 }
