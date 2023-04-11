@@ -324,9 +324,9 @@
     width: 58%;
   }
 }
-@media(max-width: 478px){
+@media(max-width: 479px){
   footer #redes {
-    width: 40%;
+    width: 62%;
   }
 }
 @media(max-width: 450px){
