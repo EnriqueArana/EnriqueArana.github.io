@@ -1,4 +1,76 @@
-@use 'resources';
-h1{
-    color: $blanco;
+@import 'resources';
+
+// GENERALES
+%titulo-about{
+    font-family: "BebasNeue";
+    font-size: 52px;
+}
+%secciones{
+    width: 100%;
+    height: auto;
+}
+#about__principal{
+    @extend %secciones;
+    height: 300px;
+}
+#about__knowledge{
+    @extend %secciones;
+}
+
+// SECCIÓN PRINCIPAL
+#about__principal--titulo{
+    text-align: center;
+    h1{
+        @extend %titulo-about;
+        width: 90%;
+        color: $negro;
+        margin: 0 auto;
+        transition: all 300ms;
+        span{
+            color: $vino;
+        }
+        &:hover{
+            text-shadow: 1px 1px 2px $negro;
+        }
+    }
+    #about__principal--redes{
+        width: 70%;
+        margin: 0 auto;
+        a{
+            cursor: pointer;
+            text-decoration: none;
+            img{
+                width: 50px;
+                transition: all 300ms;
+                padding: 20px;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+#about__principal--influence{
+    background-color: $azulOscuro;
+    width: 100%;
+    height: 120px;
+    p{
+        width: 80%;
+        margin: 0 auto;
+        font-family: "TrebuchetMS";
+        font-weight: bold;
+        color: $blanco;
+        padding-top: 24px;
+        text-align: justify;
+    }
+}
+
+// SECCIÓN CONOCIMIENTOS
+
+#about__knowledge--skills{
+    div{
+        img{
+            width: 40px;
+        }
+    }
 }

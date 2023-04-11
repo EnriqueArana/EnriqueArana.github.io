@@ -194,7 +194,7 @@ nav ul li a:hover{
     width: 4px;
     background-color: transparent;
     animation: delete-line 1s steps(15) forwards;
-    animation-delay: 5s; /* Igual al tiempo de duración de la animación typing */
+    animation-delay: 5s;
   }
   
   @keyframes typing {
