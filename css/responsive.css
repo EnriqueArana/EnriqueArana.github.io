@@ -356,7 +356,7 @@
     font-size: 55px;
   }
 }
-@media(max-width: 375px){
+@media(max-width: 376px){
   #presentacion__titulos h3 {
     font-size: 13px;
   }
@@ -367,7 +367,7 @@
     width: 85%;
   }
   footer #redes {
-    width: 78%;
+    width: 77%;
   }
   footer h3 {
     font-size: 20px;
