@@ -355,8 +355,11 @@
   #mySkills__second h3 {
     font-size: 55px;
   }
+  #fotoPerfil {
+    width: 79%;
+  }
 }
-@media(max-width: 376px){
+@media(max-width: 378px){
   #presentacion__titulos h3 {
     font-size: 13px;
   }
