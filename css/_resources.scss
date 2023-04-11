@@ -1,0 +1,32 @@
+
+$blanco: #FBFEFF;
+$negro: #0F131E;
+$vino: #61223B;
+$azulOscuro: #172645;
+$rosa: #D89590;
+$crema: #F8D3B8;
+
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url(fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url(fonts/websymbols-regular-webfont.eot);
+    src: url(fonts/websymbols-regular-webfont.eot?#iefix) format(embedded-opentype),
+        url(fonts/websymbols-regular-webfont.woff) format(woff),
+        url(fonts/websymbols-regular-webfont.ttf) format(truetype),
+        url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+}
