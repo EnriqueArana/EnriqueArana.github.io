@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "TrebuchetMS";
   src: url(fonts/TrebuchetMS.ttf);
@@ -17,7 +18,7 @@
   font-weight: normal;
   font-style: normal;
 }
-#about__principal--titulo h1 {
+#about__knowledge--softwares h2, #about__knowledge--skills h2, #about__principal--titulo h1 {
   font-family: "BebasNeue";
   font-size: 52px;
 }
@@ -78,8 +79,53 @@
   text-align: justify;
 }
 
+#about__knowledge--skills h2 {
+  color: #61223B;
+  text-align: center;
+  letter-spacing: 3px;
+}
+#about__knowledge--skills div {
+  width: 70%;
+  margin: 0 auto;
+}
 #about__knowledge--skills div img {
-  width: 40px;
+  padding: 20px;
+  width: 80px;
+}
+#about__knowledge--skills div img:first-child {
+  padding-left: 0;
+}
+#about__knowledge--skills div img:nth-child(2) {
+  padding-right: 0;
+  float: right;
+}
+#about__knowledge--skills div #less {
+  padding-top: 29px;
+}
+#about__knowledge--skills div #sass {
+  width: 56px;
+}
+
+#about__knowledge--softwares h2 {
+  color: #172645;
+  text-align: center;
+  margin-top: 45px;
+  letter-spacing: 3px;
+}
+#about__knowledge--softwares div {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex; /* Añade esta línea para utilizar Flexbox */
+  justify-content: space-between; /* Añade esta línea para distribuir los elementos con espacio entre ellos */
+}
+#about__knowledge--softwares div img {
+  padding: 20px;
+  width: 70px;
+  /* Elimina el selector &:nth-child(2) y los estilos de float:right; */
+}
+#about__knowledge--softwares div img:first-child {
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=stylesWeb.css.map */

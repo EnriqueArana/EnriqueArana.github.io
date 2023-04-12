@@ -68,9 +68,58 @@
 // SECCIÓN CONOCIMIENTOS
 
 #about__knowledge--skills{
+    h2{
+        @extend %titulo-about;
+        color: $vino;
+        text-align: center;
+        letter-spacing: 3px;
+    }
     div{
+        width: 70%;
+        margin: 0 auto;
         img{
-            width: 40px;
+            padding: 20px;
+            width: 80px;
+            &:first-child{
+                padding-left: 0;
+            }
+            &:nth-child(2){
+                padding-right: 0;
+                float: right;
+            }
+        }
+        #less{
+            padding-top: 29px;
+        }
+        #sass{
+            width: 56px;
+        }
+    }
+}
+
+// SECCIÓN SOFTWARES
+#about__knowledge--softwares {
+    h2 {
+        @extend %titulo-about;
+        color: $azulOscuro;
+        text-align: center;
+        margin-top: 45px;
+        letter-spacing: 3px;
+    }
+
+    div {
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        display: flex; /* Añade esta línea para utilizar Flexbox */
+        justify-content: space-between; /* Añade esta línea para distribuir los elementos con espacio entre ellos */
+        img {
+            padding: 20px;
+            width: 70px;
+            &:first-child {
+                padding-left: 0;
+            }
+            /* Elimina el selector &:nth-child(2) y los estilos de float:right; */
         }
     }
 }
