@@ -261,7 +261,7 @@
   }
   #about__principal--influence #about__principal--redes2 {
     display: block;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding-left: 300px;
     padding-top: 20px;
@@ -552,6 +552,137 @@
 }
 #trabajos #trabajos__proyectos #trabajos__proyectos--second a:hover {
   transform: scale(1.05, 1.05);
+}
+
+@media (min-width: 520px) {
+  #trabajos #trabajos__titulo {
+    font-size: 65px;
+    margin-top: 90px;
+  }
+  #trabajos #trabajos__proyectos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a img,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a img {
+    width: 420px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a h3,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a h3 {
+    font-size: 25px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a p,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 655px) {
+  #trabajos #trabajos__titulo {
+    font-size: 80px;
+    margin-top: 100px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a img,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a img {
+    width: 520px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a h3,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a h3 {
+    font-size: 25px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a p,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 790px) {
+  #trabajos #trabajos__titulo {
+    font-size: 95px;
+    margin-bottom: 70px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a img,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a img {
+    width: 620px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a h3,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a h3 {
+    font-size: 35px;
+    padding-left: 15px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a p,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a p {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  #trabajos #trabajos__titulo {
+    font-size: 125px;
+  }
+  #trabajos #trabajos__proyectos {
+    flex-flow: row wrap;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second {
+    flex-basis: 25%;
+    flex-grow: 1;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a img,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a img {
+    width: 100%;
+    height: 245.383px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a h3,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a h3 {
+    font-size: 35px;
+    padding-left: 15px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first a p,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second a p {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+  #trabajos #trabajos__proyectos #trabajos__proyectos--first:last-child,
+  #trabajos #trabajos__proyectos #trabajos__proyectos--second:last-child {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 1400px) {
+  #trabajos #trabajos__titulo {
+    font-size: 150px;
+  }
+  #trabajos__proyectos {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #trabajos__proyectos #trabajos__proyectos--first a,
+  #trabajos__proyectos #trabajos__proyectos--second a {
+    width: 65%;
+    margin: 0 auto;
+  }
+  #trabajos__proyectos #trabajos__proyectos--first a img,
+  #trabajos__proyectos #trabajos__proyectos--second a img {
+    width: 100%;
+    height: 245.383px;
+  }
+  #trabajos__proyectos #trabajos__proyectos--first a h3,
+  #trabajos__proyectos #trabajos__proyectos--second a h3 {
+    font-size: 35px;
+    padding-left: 15px;
+  }
+  #trabajos__proyectos #trabajos__proyectos--first a p,
+  #trabajos__proyectos #trabajos__proyectos--second a p {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+  #trabajos__proyectos #trabajos__proyectos--first:last-child,
+  #trabajos__proyectos #trabajos__proyectos--second:last-child {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 /*# sourceMappingURL=stylesWeb.css.map */
