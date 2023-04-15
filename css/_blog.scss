@@ -1,0 +1,44 @@
+$animation-duration: 2s;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  font-size: 3rem;
+  opacity: 0;
+  animation: fade-in-out $animation-duration infinite;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 650px) {
+    .text{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .container{
+        height: 70vh;
+        width: 100%;
+    }
+    .text{
+        font-size: 2.5rem;
+        width: 80%;
+        text-align: center;
+    }
+}
